@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style-guide.md" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Outfit:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>NFT preview card component</title>
+    <style>
+      body {
+        background-color: hsl(217, 54%, 11%);
+      }
+      p,
+      h2 {
+        font-family: "Barlow Condensed", sans-serif;
+        font-family: "Outfit", sans-serif;
+      }
+      .day {
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        margin: 5px;
+        margin-right: 25px;
+      }
+      .main {
+        background-color: hsl(215, 32%, 27%);
+        margin: 50px 20px;
+        font-size: 18px;
+        display: flex;
+        align-content: center;
+        border-radius: 15px;
+        width: 300px;
+        height: 620px;
+      }
+      .foot {
+        display: flex;
+        margin-left: 25px;
+        margin-top: -10px;
+      }
+      .f-word {
+        margin-top: 2px;
+        margin-left: 10px;
+        display: flex;
+        align-content: space-between;
+        justify-content: space-between;
+        color: hsl(215, 51%, 70%);
+      }
+      .f-img {
+        margin-left: 25px;
+        margin-top: 25px;
+        height: 300px;
+      }
+      .eth {
+        color: hsl(180, 98%, 50%);
+      }
+      .days {
+        color: hsl(215, 51%, 70%);
+      }
+      p {
+        color: hsl(215, 51%, 70%);
+        margin-left: 25px;
+      }
+      h2 {
+        color: white;
+        font-style: Barlow;
+        margin-left: 25px;
+      }
+      .f-line {
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+      }
+      .l-word {
+        color: white;
+        margin-top: 0px;
+      }
+      .f-main {
+        background-color: hsl(217, 54%, 11%);
+        width: 1440px;
+
+        margin-top: 00px;
+        display: flex;
+        margin-left: 30px;
+      }
+      .image-cube {
+        width: 250px;
+        height: 240px;
+        border-radius: 10px;
+      }
+      .line {
+        color: hsl(215, 51%, 70%);
+        margin: 25px;
+      }
+      .m-div {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: space-around;
+        flex-direction: column;
+        margin: 50px 200px;
+      }
+      .s-div-1 {
+        display: flex;
+        justify-content: space-between;
+      }
+      .s-div-2 {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="f-main">
+      <div class="m-div">
+        <div class="s-div-1">
+          <div class="main">
+            <div class="full">
+              <nav class="f-img">
+                <img
+                  class="image-cube"
+                  src="images/image-equilibrium.jpg"
+                  alt="equiliobrium"
+                />
+              </nav>
+              <h2>Equilibrium #3429</h2>
+              <p>Our Equilibrium collection promotes balance and calm.</p>
+              <div class="day">
+                <p class="eth">
+                  <img src="images/icon-ethereum.svg" alt="view" /> 0.041 ETH
+                </p>
+                <p class="days">
+                  <img src="images/icon-clock.svg" alt="clock" /> 3 days left
+                </p>
+              </div>
+              <hr class="line" />
+              <div class="foot">
+                <nav class="avatar">
+                  <img
+                    src="images/image-avatar.png"
+                    alt="avatar"
+                    width="30px"
+                  />
+                </nav>
+                <nav class="f-word">
+                  <div class="f-line">
+                    Creation of
+                    <p class="l-word">Jules Wyvern</p>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+
+          <div class="main">
+            <div class="full">
+              <nav class="f-img">
+                <img
+                  class="image-cube"
+                  src="images/image-equilibrium.jpg"
+                  alt="equiliobrium"
+                  width="300px"
+                />
+              </nav>
+              <h2>Equilibrium #3429</h2>
+              <p>Our Equilibrium collection promotes balance and calm.</p>
+              <div class="day">
+                <p class="eth">
+                  <img src="images/icon-ethereum.svg" alt="view" /> 0.041 ETH
+                </p>
+                <p class="days">
+                  <img src="images/icon-clock.svg" alt="clock" /> 3 days left
+                </p>
+              </div>
+              <hr class="line" />
+              <div class="foot">
+                <nav class="avatar">
+                  <img
+                    src="images/image-avatar.png"
+                    alt="avatar"
+                    width="30px"
+                  />
+                </nav>
+                <nav class="f-word">
+                  <div class="f-line">
+                    Creation of
+                    <p class="l-word">Jules Wyvern</p>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="main">
+            <div class="full">
+              <nav class="f-img">
+                <img
+                  class="image-cube"
+                  src="images/image-equilibrium.jpg"
+                  alt="equiliobrium"
+                  width="300px"
+                />
+              </nav>
+              <h2>Equilibrium #3429</h2>
+              <p>Our Equilibrium collection promotes balance and calm.</p>
+              <div class="day">
+                <p class="eth">
+                  <img src="images/icon-ethereum.svg" alt="view" /> 0.041 ETH
+                </p>
+                <p class="days">
+                  <img src="images/icon-clock.svg" alt="clock" /> 3 days left
+                </p>
+              </div>
+              <hr class="line" />
+              <div class="foot">
+                <nav class="avatar">
+                  <img
+                    src="images/image-avatar.png"
+                    alt="avatar"
+                    width="30px"
+                  />
+                </nav>
+                <nav class="f-word">
+                  <div class="f-line">
+                    Creation of
+                    <p class="l-word">Jules Wyvern</p>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="s-div-2">
+          <div class="main">
+            <div class="full">
+              <nav class="f-img">
+                <img
+                  class="image-cube"
+                  src="images/image-equilibrium.jpg"
+                  alt="equiliobrium"
+                  width="300px"
+                />
+              </nav>
+              <h2>Equilibrium #3429</h2>
+              <p>Our Equilibrium collection promotes balance and calm.</p>
+              <div class="day">
+                <p class="eth">
+                  <img src="images/icon-ethereum.svg" alt="view" /> 0.041 ETH
+                </p>
+                <p class="days">
+                  <img src="images/icon-clock.svg" alt="clock" /> 3 days left
+                </p>
+              </div>
+              <hr class="line" />
+              <div class="foot">
+                <nav class="avatar">
+                  <img
+                    src="images/image-avatar.png"
+                    alt="avatar"
+                    width="30px"
+                  />
+                </nav>
+                <nav class="f-word">
+                  <div class="f-line">
+                    Creation of
+                    <p class="l-word">Jules Wyvern</p>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="main">
+            <div class="full">
+              <nav class="f-img">
+                <img
+                  class="image-cube"
+                  src="images/image-equilibrium.jpg"
+                  alt="equiliobrium"
+                  width="300px"
+                />
+              </nav>
+              <h2>Equilibrium #3429</h2>
+              <p>Our Equilibrium collection promotes balance and calm.</p>
+              <div class="day">
+                <p class="eth">
+                  <img src="images/icon-ethereum.svg" alt="view" /> 0.041 ETH
+                </p>
+                <p class="days">
+                  <img src="images/icon-clock.svg" alt="clock" /> 3 days left
+                </p>
+              </div>
+              <hr class="line" />
+              <div class="foot">
+                <nav class="avatar">
+                  <img
+                    src="images/image-avatar.png"
+                    alt="avatar"
+                    width="30px"
+                  />
+                </nav>
+                <nav class="f-word">
+                  <div class="f-line">
+                    Creation of
+                    <p class="l-word">Jules Wyvern</p>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="main">
+            <div class="full">
+              <nav class="f-img">
+                <img
+                  class="image-cube"
+                  src="images/image-equilibrium.jpg"
+                  alt="equiliobrium"
+                  width="300px"
+                />
+              </nav>
+              <h2>Equilibrium #3429</h2>
+              <p>Our Equilibrium collection promotes balance and calm.</p>
+              <div class="day">
+                <p class="eth">
+                  <img src="images/icon-ethereum.svg" alt="view" /> 0.041 ETH
+                </p>
+                <p class="days">
+                  <img src="images/icon-clock.svg" alt="clock" /> 3 days left
+                </p>
+              </div>
+              <hr class="line" />
+              <div class="foot">
+                <nav class="avatar">
+                  <img
+                    src="images/image-avatar.png"
+                    alt="avatar"
+                    width="30px"
+                  />
+                </nav>
+                <nav class="f-word">
+                  <div class="f-line">
+                    Creation of
+                    <p class="l-word">Jules Wyvern</p>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
